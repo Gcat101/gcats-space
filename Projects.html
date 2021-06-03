@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="styles.css" rel="stylesheet", type="text/css">
+    <link href="assets/gcat.ico" rel="shortcut icon" type="image/x-icon">
+    <meta charset="UTF-8">
+    <script src="index.js"></script>
+    <title>Проекты</title>
+</head>
+<body>
+
+    <div class="project_banner">
+        <img class="project_hat" src="https://media.discordapp.net/attachments/764838645374648353/844982752624246784/header.gif"/>
+        <h1 class="projects_name">Projects</h1>
+    </div>
+
+    <h1 class="project_desc">Добро пожаловать в мои проекты которые я обновляю регулярно! (нет)</h1>
+
+    <div class="project_grid">
+        <div class="project" onclick="jpeg_to_json()">
+            <img class="project_thumbnail" src="assets/project_thumbnails/jpegtojson.jpg">
+            <h1 class="project_name">Jpeg to Json</h1>
+        </div>
+        <div class="project" onclick="whosthatstand()">
+            <img class="project_thumbnail" src="assets/project_thumbnails/whosthatstandpfp.png">
+            <h1 class="project_name">Who's that stand?</h1>
+        </div>
+        <div class="project" onclick="d54()">
+            <img class="project_thumbnail" src="assets/project_thumbnails/d54.png">
+            <h1 class="project_name">D-54</h1>
+        </div>
+        <div class="project" onclick="gcats_space()">
+            <img class="project_thumbnail" src="assets/header.gif">
+            <h1 class="project_name">Gcats.space</h1>
+        </div>
+    </div>
+
+    <dir class="menu">
+        <h1 class="menu_title" onclick="main_page()">G_cat</h1>
+        <h1 class="about" onclick="about()">О мне</h1>
+        <h1 class="contact" onclick="contacts()">Контакты</h1>
+        <h1 class="projects" onclick="projects()">Проекты</h1>
+    </dir>
+
+    <footer>
+        <h1 class="footer_text">Весь контент который я делаю является copyleft-ом &#127279;</h1>
+        <h1 class="footer_link" onclick="copyleft()">Подробнее тут</h1>
+    </footer>
+
+</body>
+</html>
