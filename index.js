@@ -77,6 +77,9 @@ function whos_github() {
 function whos_discord() {
     window.location.href='https://discord.com/api/oauth2/authorize?client_id=839415817195487252&permissions=8&scope=bot';
 }
+function website_github() {
+    window.location.href='https://github.com/Gcat101/gcats-space';
+}
 function haha() {
     switch (clicks) {
         case 0:
